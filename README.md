@@ -14,7 +14,7 @@ This is the official repository for my personal portfolio website. It is a fully
   <tr>
     <td width="50%" valign="top">
       <p align="center"><b>Desktop View</b></p>
-      <img src="[https://D:\front end intern\portfolion task 1\images" alt="Desktop view of the portfolio](https://github.com/abdullah3373/Abdullah_portfolio/blob/main/portfolion%20task%201/images/Capture.PNG)">
+      <img src="https://github.com/abdullah3373/Abdullah_portfolio/blob/main/portfolion%20task%201/images/Capture.PNG">
     </td>
     <td width="50%" valign="top">
       <p align="center"><b>Mobile View</b></p>
