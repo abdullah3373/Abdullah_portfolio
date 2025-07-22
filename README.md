@@ -2,8 +2,6 @@
 
 This is the official repository for my personal portfolio website. It is a fully responsive, multi-page site designed to showcase my skills and experience in both **Financial Technology** and **Digital Marketing**. The site is built from scratch using only HTML, CSS, and vanilla JavaScript, with a focus on clean code and a modern user interface.
 
-### ✨ [View Live Demo](https://[YOUR-GITHUB-USERNAME].github.io/portfolio/)
-
 ---
 
 ## 📸 Project Screenshots
