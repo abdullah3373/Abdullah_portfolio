@@ -18,12 +18,10 @@ This is the official repository for my personal portfolio website. It is a fully
     </td>
     <td width="50%" valign="top">
       <p align="center"><b>Mobile View</b></p>
-      <img src="https://placehold.co/300x500/3498db/ffffff?text=Add+Mobile+Screenshot" alt="Mobile view of the portfolio">
+      <img src="https://github.com/abdullah3373/Abdullah_portfolio/blob/main/portfolion%20task%201/images/mobile.PNG">
     </td>
   </tr>
 </table>
-
-*(To add your own screenshots, replace the `https://placehold.co/...` links with the path to your images after you've added them to the repository.)*
 
 ---
 
