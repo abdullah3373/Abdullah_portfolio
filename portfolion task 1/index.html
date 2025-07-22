@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Update the title for each page -->
+    <title>Home | Abdullah's Portfolio</title>
+    
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <!-- This header will be copied to all other pages -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Abdullah</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <!-- 1. Links point to .html files -->
+                    <!-- 2. The "Home" link has the 'active-link' class on this page -->
+                    <li class="nav__item"><a href="index.html" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i>Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link"><i class="uil uil-user nav__icon"></i>About</a></li>
+                    <li class="nav__item"><a href="skills.html" class="nav__link"><i class="uil uil-file-alt nav__icon"></i>Skills</a></li>
+                    <li class="nav__item"><a href="qualification.html" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>Qualification</a></li>
+                    <li class="nav__item"><a href="projects.html" class="nav__link"><i class="uil uil-scenery nav__icon"></i>Projects</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link"><i class="uil uil-message nav__icon"></i>Contact</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+              <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <!-- The <main> section for this page ONLY contains the Home content -->
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/abdullah-0769a62a3" target="_blank" class="home__social-icon"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/abdullah3373" target="_blank" class="home__social-icon"><i class="uil uil-github-alt"></i></a>
+                    </div>
+            <!-- REPLACEMENT CODE -->
+<div class="home__img">
+    <img src="images/profile.jpg" alt="Abdullah" class="home__img-photo">
+</div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Abdullah</h1>
+                        <h3 class="home__subtitle">Financial Technology Student</h3>
+                        <p class="home__description">Undergraduate at <strong>FAST University</strong>, passionate about web development, blockchain, and data analysis.</p>
+                        <!-- This button should link to the contact.html page -->
+                        <a href="contact.html" class="button button--flex">Contact Me <i class="uil uil-message button__icon"></i></a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <!-- This button should link to the about.html page -->
+                    <a href="about.html" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i><span class="home__scroll-name">Scroll down</span><i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <!-- This footer will be copied to all other pages -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div><h1 class="footer__title">Abdullah</h1><span class="footer__subtitle">Financial Technology Student</span></div>
+                <!-- Correct Code (After) -->
+<div class="footer__socials">
+    <a href="https://www.linkedin.com/in/abdullah-0769a62a3" target="_blank" class="footer__social"><i class="uil uil-linkedin-alt"></i></a>
+    <a href="https://github.com/abdullah3373" target="_blank" class="footer__social"><i class="uil uil-github-alt"></i></a>
+</div>
+            </div>
+            <p class="footer__copy">© Abdullah. All rights reserved</p>
+        </div>
+    </footer>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up"><i class="uil uil-arrow-up scrollup__icon"></i></a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="script.js"></script>
+    </body>
+</html>

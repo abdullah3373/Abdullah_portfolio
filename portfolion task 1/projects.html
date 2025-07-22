@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Abdullah's Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Abdullah</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="index.html" class="nav__link"><i class="uil uil-estate nav__icon"></i>Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link"><i class="uil uil-user nav__icon"></i>About</a></li>
+                    <li class="nav__item"><a href="skills.html" class="nav__link"><i class="uil uil-file-alt nav__icon"></i>Skills</a></li>
+                    <li class="nav__item"><a href="qualification.html" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>Qualification</a></li>
+                    <li class="nav__item"><a href="projects.html" class="nav__link active-link"><i class="uil uil-scenery nav__icon"></i>Projects</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link"><i class="uil uil-message nav__icon"></i>Contact</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+  <!-- ==================== PROJECTS ==================== -->
+<section class="projects section" id="projects">
+    <h2 class="section__title">Projects</h2>
+    <span class="section__subtitle">My Recent Work</span>
+    <div class="projects__container container swiper-container">
+        <div class="swiper-wrapper">
+
+            <!-- =============== PROJECT 1: Instagram (Marketing) =============== -->
+            <div class="projects__content grid swiper-slide">
+                <img src="images\insta.PNG" alt="Instagram Account Manager Project" class="projects__img">
+                <div class="projects__data">
+                    <h3 class="projects__title">Instagram Content Creator</h3>
+                    <p class="projects__description">Managed and grew the @_Fasthetic brand organically by creating visually appealing content (reels, stories) and managing community engagement.</p>
+                    <a href="https://www.instagram.com/__fasthetic/" target="_blank" class="button button--flex button--small projects__button">
+                        View Instagram <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- =============== PROJECT 2: Blockchain (Tech) =============== -->
+            <div class="projects__content grid swiper-slide">
+                <img src="https://placehold.co/600x400/2c3e50/ffffff?text=Blockchain+Project" alt="Outlet Management with Blockchain" class="projects__img">
+                <div class="projects__data">
+                    <h3 class="projects__title">Outlet Management with Blockchain</h3>
+                    <p class="projects__description">Developed a blockchain-based system using Solidity and Ethereum for secure inventory tracking and transaction logging.</p>
+                    <a href="#" class="button button--flex button--small projects__button">
+                        View Code <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- =============== PROJECT 3: Stock Tracker (Tech) =============== -->
+            <div class="projects__content grid swiper-slide">
+                <img src="https://placehold.co/600x400/3498db/ffffff?text=Stock+Tracker" alt="Stock Price Tracker" class="projects__img">
+                <div class="projects__data">
+                    <h3 class="projects__title">Stock Price Tracker</h3>
+                    <p class="projects__description">Built a real-time stock tracker using Python and financial APIs, with data analysis and visualization via Pandas and Matplotlib.</p>
+                    <a href="#" class="button button--flex button--small projects__button">
+                        View Code <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-button-next"><i class="uil uil-angle-right-b swiper-projects-icon"></i></div>
+        <div class="swiper-button-prev"><i class="uil uil-angle-left-b swiper-projects-icon"></i></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div><h1 class="footer__title">Abdullah</h1><span class="footer__subtitle">Financial Technology Student</span></div>
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/abdullah-0769a62a3" target="_blank" class="footer__social"><i class="uil uil-linkedin-alt"></i></a>
+                    <a href="https://github.com/abdullah3373" target="_blank" class="footer__social"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">© Abdullah. All rights reserved</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up"><i class="uil uil-arrow-up scrollup__icon"></i></a>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
