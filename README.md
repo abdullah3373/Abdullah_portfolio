@@ -14,7 +14,7 @@ This is the official repository for my personal portfolio website. It is a fully
   <tr>
     <td width="50%" valign="top">
       <p align="center"><b>Desktop View</b></p>
-      <img src="https://placehold.co/600x400/2c3e50/ffffff?text=Add+Desktop+Screenshot" alt="Desktop view of the portfolio">
+      <img src="https://D:\front end intern\portfolion task 1\images" alt="Desktop view of the portfolio">
     </td>
     <td width="50%" valign="top">
       <p align="center"><b>Mobile View</b></p>
